@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Coinciders</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Perfect Point Marketing">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/smoothness/jquery-ui.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+        <!-- Color Pickr -->
+        <link href="includes/color-pickr/color-pickr.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="includes/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- WOW JS Animation -->
+    <link rel="stylesheet" href="includes/wow-js/animations.css" />
+    <!-- Litebox  -->
+    <link rel="stylesheet" href="includes/litebox/litebox.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="includes/owl-carousel/owl.carousel.css" />
+        <!-- custom css -->
+        <link href="stylesheets/application.scss" rel="stylesheet" type="text/css" media="screen">
+        <!-- font awesome for icons -->
+        <link href="includes/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="/favicon.ico">
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="css/fucking-ie-8-and-lower.css" />
+    <![endif]-->
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body onload="init()" id="body">
+
+<div id="preloader">
+  <div class="spinner">
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+  </div>
+</div><!--preloader end-->
+
+    <%= yield %>
+
+    <!--scripts and plugins -->
+    <!--must need plugin jquery-->
+    <script src="javascript/jquery.min.js"></script>
+    <!--bootstrap js plugin-->
+    <script src="includes/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!--parallax-->
+    <script src="javascript/jquery.scrolly.js" type="text/javascript"></script>
+    <!--portfolio-filter-->
+    <script src="javascript/isotope.pkgd.min.js" type="text/javascript"></script>
+    <!--lightbox-->
+    <script src="includes/litebox/images-loaded.min.js" type="text/javascript"></script>
+    <script src="includes/litebox/litebox.min.js" type="text/javascript"></script>
+    <!--project count-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="javascript/jquery.counterup.min.js" type="text/javascript"></script>
+    <!--custom scrollbar-->
+    <script src="javascript/jquery.nicescroll.min.js" type="text/javascript"></script>
+    <!--Contact Form-->
+    <script src="includes/contact-form/app.js" type="text/javascript"></script>
+    <script src="includes/contact-form/validatr.js" type="text/javascript"></script>
+
+    <!--customizable plugin edit according to your needs-->
+    <script src="javascript/custom.js" type="text/javascript"></script>
+  </body>
+</html>
